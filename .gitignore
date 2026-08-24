@@ -1,5 +1,73 @@
-# Object file
-*.o
+# ==================== 系统冗余文件 ====================
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
 
-# Ada Library Information
-*.ali
+# ==================== IDE / 编辑器缓存 ====================
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+*.tmp
+
+# ==================== 项目临时草稿 / 未定稿内容 ====================
+*.草稿
+*.未校对
+*.待修订
+temp/
+draft/
+tmp/
+
+# ==================== 大型媒体 / 原始素材（不进仓库） ====================
+# 音视频
+*.mp3
+*.wav
+*.flac
+*.mp4
+*.mov
+*.avi
+
+# 图片
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.webp
+
+# 原始文献、扫描件
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+
+# 原始素材目录
+raw_material/
+audio_source/
+image_raw/
+scan_paper/
+
+# ==================== 本地环境 / 配置 / 日志 ====================
+.env
+.env.local
+.local
+local_config.json
+*.log
+logs/
+
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 其他编译缓存
+build/
+dist/
+*.bak
